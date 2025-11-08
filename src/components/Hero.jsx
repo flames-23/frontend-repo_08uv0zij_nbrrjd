@@ -36,10 +36,10 @@ export default function Hero() {
           className="mt-8 flex flex-wrap items-center gap-4"
         >
           <a
-            href="#work"
+            href="#community"
             className="rounded-xl bg-gradient-to-r from-cyan-500 to-fuchsia-500 px-6 py-3 text-sm font-medium text-white shadow-[0_0_30px_rgba(72,211,255,0.35)] hover:brightness-110 transition"
           >
-            Explore Work
+            Explore Community
           </a>
           <a
             href="#contact"

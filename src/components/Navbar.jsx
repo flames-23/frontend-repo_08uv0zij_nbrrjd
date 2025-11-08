@@ -20,7 +20,7 @@ export default function Navbar() {
           .Portfolio
         </a>
         <div className="hidden gap-8 md:flex">
-          <a href="#work" className="text-sm text-white/80 hover:text-white transition-colors">Work</a>
+          <a href="#community" className="text-sm text-white/80 hover:text-white transition-colors">Community</a>
           <a href="#about" className="text-sm text-white/80 hover:text-white transition-colors">About</a>
           <a href="#contact" className="text-sm text-white/80 hover:text-white transition-colors">Contact</a>
         </div>

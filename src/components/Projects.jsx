@@ -3,28 +3,28 @@ import { ExternalLink } from 'lucide-react';
 
 const items = [
   {
-    title: 'Neon Commerce',
-    desc: 'High-performance storefront with 3D product previews and edge rendering.',
-    tags: ['Next.js', 'Three.js', 'Stripe'],
+    title: 'Veelora SMP',
+    desc: 'A thriving survival multiplayer community fostering creativity, events, and collaborative builds.',
+    tags: ['Minecraft', 'SMP', 'Community'],
     link: '#',
   },
   {
-    title: 'Holo Dashboard',
-    desc: 'Realtime analytics with smooth glassmorphism and motion design.',
-    tags: ['React', 'D3', 'WebSockets'],
+    title: 'endwe shop bd',
+    desc: 'Community-driven shop in BD supporting creators and gamers with curated gear and services.',
+    tags: ['E-commerce', 'Community', 'Bangladesh'],
     link: '#',
   },
   {
-    title: 'Aether Landing',
-    desc: 'Marketing site with cinematic scroll and interactive particles.',
-    tags: ['Vite', 'Framer Motion', 'Tailwind'],
+    title: 'Dev.World',
+    desc: 'A global hub for developers to collaborate, learn, and launch open-source initiatives.',
+    tags: ['Developers', 'Open Source', 'Collab'],
     link: '#',
   },
 ];
 
 export default function Projects() {
   return (
-    <section id="work" className="relative scroll-mt-24 bg-black py-24 text-white">
+    <section id="community" className="relative scroll-mt-24 bg-black py-24 text-white">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-fuchsia-500/10" />
       <div className="relative mx-auto max-w-7xl px-6">
         <motion.h2
@@ -34,7 +34,7 @@ export default function Projects() {
           transition={{ duration: 0.6 }}
           className="text-3xl font-semibold tracking-tight sm:text-4xl"
         >
-          Selected Work
+          Community
         </motion.h2>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((p, i) => (
